@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/close"
+        android:layout_width="56dp"
+        android:layout_height="43dp"
+        android:layout_marginLeft="345dp"
+        android:layout_marginTop="42dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/ic_close" />
+
+    <TextView
+        android:id="@+id/textoTela"
+        android:layout_marginTop="110dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+
+        android:text="@string/paraonde"
+        android:textColor="@color/preto"
+        android:textSize="28dp"
+       />
+
+    <EditText
+        android:id="@+id/labelpesquisa"
+        style="@style/container_labels"
+
+        android:layout_marginTop="160dp"
+        android:drawableLeft="@drawable/ic_pesquisa"
+        android:hint="@string/searchr" />
+
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_marginTop="220dp"
+        android:background="@color/branco">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/imageview"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/ImageView"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_local" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textLocal"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="35dp"
+            android:layout_toRightOf="@id/imageview"
+            android:text="Florianopolis"
+            android:textColor="@color/preto"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+    </RelativeLayout>
+
+</RelativeLayout>
