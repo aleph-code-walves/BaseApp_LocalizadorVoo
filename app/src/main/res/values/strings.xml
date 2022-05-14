@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Base_Final</string>
+    <string name="textMenu1">Para onde você vai?</string>
+    <string name="search">Pesquisar</string>
+    <string name="searchr">Pesquise</string>
+    <string name="paraonde">Para onde?</string>
+    <string name="Origem">Origem</string>
+    <string name="Destino">Destino</string>
+    <string name="othersSearchs">Encontre poltronas para viajar para onde deseja!</string>
+    <string name="descover">Descubra como encontrar seu acento!</string>
+    <string name="card1">Florianópolis - Navegantes</string>
+    <string name="textcard1">$ 120 / Pessoa</string>
+    <string name="card2">Curitiba - Navegantes</string>
+    <string name="textcard2">$ 200 / Pessoa</string>
+    <string name="Outras_pesquisas_card">Outras Pesquisas</string>
+    <string name="Criarlogin">Criar um login</string>
+    <string name="Fazerlogin">Fazer Login</string>
+    <string name="Configurações">Configurações</string>
+    <string name="para_onde">Para onde ?</string>
+
+
+    <string-array name="locais_de_pesquisa">
+        <item>Florianópolis</item>
+        <item>São Paulo</item>
+        <item>Rio Grande do Sul</item>
+        <item>Chapecó</item>
+        <item>Rio de Janeiro</item>
+        <item>Navegantes</item>
+        <item>Curitiba</item>
+        <item>Minas Gerais</item>
+
+
+    </string-array>
+
+</resources>
