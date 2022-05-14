@@ -1,6 +1,7 @@
 package com.example.base_final;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.AppCompatButton;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -17,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        EditText button = (EditText) findViewById(R.id.labelpesquisa);
+        AppCompatButton button = (AppCompatButton) findViewById(R.id.pesquisarbutton);
 
 
 
@@ -32,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new Button.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent it = new Intent(MainActivity.this,pesquisar.class);
+                Intent it = new Intent(MainActivity.this,Voolayout.class);
                 startActivity(it);
 
             }

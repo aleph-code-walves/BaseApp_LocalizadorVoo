@@ -17,6 +17,20 @@
     <string name="Fazerlogin">Fazer Login</string>
     <string name="Configurações">Configurações</string>
     <string name="para_onde">Para onde ?</string>
+    <string name="AviancaAirlines">Avianca Airlines</string>
+    <string name="Vizualizar">Visualizar</string>
+    <string name="VejoAssentos">Veja os Assentos Disponíveis</string>
+    <string name="classe">Classe</string>
+    <string name="model">Modelo</string>
+    <string name="Servico">Serviços</string>
+    <string name="Poltronas">Poltronas Adequadas</string>
+    <string name="Poltronas_coordenada">Coordenada</string>
+
+    <string-array name="Poltronas">
+        <item>Coordenada</item>
+        <item>Poltrona 1</item>
+        <item>Poltrona 2</item>
+    </string-array>
 
 
     <string-array name="locais_de_pesquisa">

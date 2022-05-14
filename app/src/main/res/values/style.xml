@@ -62,6 +62,12 @@
         <item name="android:background">@drawable/container_baixo</item>
     </style>
 
+    <style name="container_conteudo">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">460dp</item>
+        <item name="android:background">@drawable/backgruondfundo</item>
+    </style>
+
 
 
 

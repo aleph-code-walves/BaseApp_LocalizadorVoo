@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Base_Final">
         <activity
+            android:name=".Voolayout"
+            android:exported="false" />
+        <activity
             android:name=".pesquisar"
             android:exported="false" />
         <activity

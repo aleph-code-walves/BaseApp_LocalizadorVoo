@@ -125,13 +125,7 @@
         android:layout_below="@id/pesquisarbutton"
         android:layout_marginTop="71dp" />
 
-    <View
-        android:id="@+id/container_danw"
-        style="@style/container_down"
-        android:layout_height="24dp"
-        android:layout_below="@id/Flip"
-        android:layout_marginTop="35dp"
-        app:layout_constraintStart_toStartOf="parent" />
+
 
 
 </RelativeLayout>

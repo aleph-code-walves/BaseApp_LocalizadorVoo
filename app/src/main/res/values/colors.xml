@@ -14,4 +14,8 @@
     <color name="preto">#000</color>
     <color name="cinzalayout">#F2F4F7</color>
     <color name="text_color">#07021C</color>
+
+    <color name="font_text_label">#0b0b0b</color>
+    <color name="font_text_sublabel">#424141</color>
+
 </resources>
